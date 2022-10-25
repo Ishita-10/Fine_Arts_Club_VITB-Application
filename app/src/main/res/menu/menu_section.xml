@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Welcome_page">
+    <item
+        android:id="@+id/upcoming"
+        android:title="Upcoming Events"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/past"
+        android:title="Past Events"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        app:showAsAction="never">
+    </item>
+
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "857146652197",
+    "firebase_url": "https://fine-arts-club-vitb-default-rtdb.firebaseio.com",
+    "project_id": "fine-arts-club-vitb",
+    "storage_bucket": "fine-arts-club-vitb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857146652197:android:9c376ab16c69d36fe471cc",
+        "android_client_info": {
+          "package_name": "com.example.fineartsclubvitb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857146652197-ka8u398gdd8bo5hoo6v7i9gm1hua5fro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn1M5c1OBdsndq39nx-qNlMgnLi61_auA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857146652197-ka8u398gdd8bo5hoo6v7i9gm1hua5fro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

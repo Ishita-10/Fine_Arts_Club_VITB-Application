@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    tools:context=".Past_events">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Past Events" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/Event1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:text="Craft- Orama"
+            />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:text="On the occasion of Annual Tech Fest AdVITya 2022 and the Earth Day, The VIT Bhopal Fine Arts Club is organizing an enthralling event for everyone with an interest, an idea and vivid imagination. The participants are asked to make a piece of their imagination using discarded materials" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:srcCompat="@android:drawable/arrow_down_float" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/Event2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:text="Poster Making Competition"
+            />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="The first offline event of Arts Club conducted for the 2021 batch students. Theme of patriotism was showcased by all the participants through various art mediums!!"
+            />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:srcCompat="@android:drawable/arrow_down_float" />
+    </LinearLayout>
+
+
+</LinearLayout>
